@@ -6,6 +6,9 @@ including the Wii U and the 3DS. It supports multiple operation modes, including
 redirecting requests to a local Pretendo Network server and collecting Wii U and
 3DS network dumps.
 
+**This fork is configured for use with
+[my selfhosted Pretendo Network setup](https://github.com/MatthewL246/pretendo-docker).**
+
 ## Collecting network dumps
 
 1. Download and install Docker using the
