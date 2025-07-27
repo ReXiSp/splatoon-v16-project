@@ -1,1 +1,23 @@
-../config-local.yaml
+# See https://docs.mitmproxy.org/stable/concepts-options/ for documentation
+
+listen_port: 7812
+web_port: 8081
+
+# Make sure that the right configuration files and certs are loaded
+client_certs: ./client-certificates/WiiU-common.pem
+confdir: ./.mitmproxy
+
+# Enable the Pretendo redirection script
+scripts: ["../pretendo_addon.py"]
+splatoon_early_spoof: true
+
+# Allow self-signed certificates
+ssl_insecure: true
+block_global: false
+
+# Allow the console to use older TLS versions
+tls_version_client_min: UNBOUNDED
+tls_version_server_min: UNBOUNDED
+
+# Allow connections to URLs that do not exist upstream (see https://github.com/MatthewL246/pretendo-docker/issues/243)
+connection_strategy: lazy

@@ -1,0 +1,1 @@
+mitmweb --set confdir="./.mitmproxy"
