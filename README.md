@@ -1,4 +1,4 @@
-# Mitmproxy configuration for Pretendo
+# Mitmproxy configuration for Splatoon 1.0.0
 
 This repo contains configurations, scripts, and certificates for using
 `mitmproxy`/`mitmweb`/`mitmdump` to intercept traffic from Nintendo consoles,
