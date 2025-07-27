@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<agreements>
+    <agreement>
+        <country>JP</country>
+        <language>ja</language>
+        <language_name>日本語</language_name>
+        <publish_date>2014-09-29T20:07:35</publish_date>
+        <texts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="chunkedStoredAgreementText">
+            <main_title>
+                <![CDATA[Splatoon v16 Project 使用に当たっての注意事項]]>
+            </main_title>
+            <agree_text>
+                <![CDATA[同意します]]>
+            </agree_text>
+            <non_agree_text>
+                <![CDATA[拒否します]]>
+            </non_agree_text>
+            <main_text index="1">
+                <![CDATA[Splatoon v16 Projectへようこそ！サービスの使用を開始する前に注意事項をお読みください。
+・絶対に既存のNintendo/Pretendo公式サーバーのアカウントでログインしないでください。もし当サーバーに接続した状態でログインすると、あなたのメールアドレス、パスワード、PNIDが当サーバーに送信されます。この情報を用いてあなたのアカウントにログインすることも可能になってしまいます。
+・otp.binの一部分のデータは当サーバーに送信されます。これは、Nintendo/Pretendo公式サーバーに接続するための本体情報を含みます。あなたの本体に偽装してログインすることも可能です。
+・あなたのIPアドレスから大まかな地域を特定することが可能です。
+
+
+以上]]>
+            </main_text>
+            <sub_title>
+                <![CDATA[プライバシーポリシー]]>
+            </sub_title>
+            <sub_text index="1">
+                <![CDATA[]]>
+            </sub_text>
+        </texts>
+        <type>NINTENDO-NETWORK-EULA</type>
+        <version>0300</version>
+    </agreement>
+</agreements>
